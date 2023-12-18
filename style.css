@@ -1,0 +1,754 @@
+/* Adicione estilos personalizados aqui, se necessário */
+.custom-card {
+    width: 100%;
+    /* Utilize 100% da largura do contêiner */
+}
+
+ul {
+    list-style-type: inherit;
+}
+
+.ebook {
+    background-color: #FF6000;
+    border-radius: 5px;
+    width: 20px;
+    height: 50px;
+}
+
+.maior-margem-esquerda {
+    margin-left: 150em;
+
+}
+
+.custom-row {
+    margin-bottom:
+        2.5rem;
+    /*
+             Adicione a margem inferior desejada em rem */
+}
+
+/* .subtitulohome {
+    font-size: 2em;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    transform: translateY(-50%);
+    left: -100%;
+    white-space: nowrap;
+    font-size: 0.5em;
+    color: #fff;
+    animation: slideIn 2s forwards;
+}
+
+.textodestaque-home {
+    font-size: 2.5em;
+    font-weight: bold;
+    position: absolute;
+    top: -100px;
+    transform: translateY(-50%);
+    left: -100%;
+    white-space: nowrap;
+    font-size: 2em;
+    color: #fff;
+    animation: slideIn 2s forwards;
+}
+
+@keyframes slideIn {
+    to {
+        left: 50%;
+    }
+}
+
+*/
+.textodestaque-home {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.laranja {
+    background-color: #FF6000;
+    width: 300px;
+    /* text-align: center; */
+    margin-left: 60px;
+    height: 500px;
+}
+
+.laranja2 {
+    background-color: #FF6000;
+    width: 300px;
+    /* text-align: center; */
+    margin-left: 60px;
+    height: 500px;
+}
+
+.branco {
+    background-color: #fff;
+    width: 300px;
+    /* text-align: center; */
+    margin-left: 0px;
+    height: 600px;
+}
+
+.espacamento {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-laranja {
+    color: #FF6000;
+    font-weight: bold;
+
+}
+
+.texto-white {
+    font-weight: bold;
+}
+
+.textoDestaque-centro {
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+
+.textoDestaque-final {
+    margin-top: 20px;
+}
+
+
+.tamanho {
+    margin-top: 60px;
+    margin-left: 20px;
+    /* padding-right: 40px; */
+}
+
+.tamanho-texto {
+    padding-right: 20px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+
+.imagem1 {
+    width: 100%;
+    height: auto;
+}
+
+
+.imagem1::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.sobremim {
+    color: aqua;
+}
+
+.eliebson-nome {
+    font-size: 2.5em;
+}
+
+.texto-section3-principal {
+    margin-top: 130px;
+    font-weight: bold;
+    font-size: 2.8em;
+}
+
+.texto-section3-subtitulo {
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+
+.destaque-texto-altonivel {
+    margin-top: 90px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.subtitulo-texto-altonivel {
+    color: gray;
+    font-size: 1.0em;
+}
+
+/* ***************************botao padrao******************************* */
+
+.buttonContratar {
+    background: #FF6000;
+    color: #fff;
+    border: none;
+    position: relative;
+    height: 40px;
+    font-size: 1.6em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    border-radius: 8px;
+}
+
+.buttonContratar:hover {
+    background: #fff;
+    color: #FF6000;
+    border-radius: 8px;
+}
+
+.buttonContratar:before,
+.buttonContratar:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #FF6000;
+    transition: 400ms ease all;
+    border-radius: 8px;
+}
+
+.buttonContratar:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+    border-radius: 8px;
+}
+
+.buttonContratar:hover:before,
+.buttonContratar:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+    border-radius: 8px;
+}
+
+/* ***************************botao padrao******************************* */
+
+
+/************************* BOTÃO DA SECTION 1 ************************/
+.buttons1 {
+    background: blue;
+    color: #fff;
+    border: none;
+    position: relative;
+    height: 40px;
+    font-size: 1.0em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    border-radius: 8px;
+}
+
+
+.buttons1:hover {
+    background: #fff;
+    color: blue;
+    border-radius: 8px;
+}
+
+.buttons1:before,
+.buttons1:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: blue;
+    transition: 400ms ease all;
+    border-radius: 8px;
+}
+
+.buttons1:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+    border-radius: 8px;
+}
+
+.buttons1:hover:before,
+.buttons1:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+    border-radius: 8px;
+}
+
+/************************* BOTÃO DA SECTION 1 ************************/
+
+
+/************************* BOTÃO whatsapp ************************/
+.custom-buttonzap {
+    background: #25d366;
+    color: #fff;
+    border: none;
+    position: relative;
+    height: 60px;
+    font-size: 1.2em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    border-radius: 8px;
+}
+
+
+.custom-buttonzap:hover {
+    background: #fff;
+    color: #25d366;
+    border-radius: 8px;
+}
+
+.custom-buttonzap:before,
+.custom-buttonzap:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    height: 3px;
+    width: 0;
+    background: #25d366;
+    transition: 400ms ease all;
+    border-radius: 8px;
+}
+
+.custom-buttonzap:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+    border-radius: 8px;
+}
+
+.custom-buttonzap:hover:before,
+.custom-buttonzap:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+    border-radius: 8px;
+}
+
+/************************* BOTÃO whatsapp ************************/
+
+
+.teste {
+    padding-left: 15px;
+}
+
+.whatsapp {
+    align-items: center;
+    padding-block-end: 1%;
+    width: 20px;
+
+}
+
+.espacamento {
+    margin-top: 100px;
+}
+
+.texto-destaqueS5 {
+    top: 50px;
+    margin-top: 10px;
+    font-size: 3.0em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.subtitulo-destaqueS5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #FF6000;
+}
+
+.espacamentoFinal {
+    margin-top: 100px;
+}
+
+.texto-destaqueS7 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #FF6000;
+}
+
+.subtitulo-destaqueS7 {
+    top: 50px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.margem {
+    margin-top: 10px;
+    margin-left: 300px;
+    display: block;
+    /* padding-right: 40px; */
+}
+
+.planosonline {
+    margin-top: 50px;
+}
+
+.planospresencial {
+    margin-top: 100px;
+}
+
+.logo {
+    width: 1000px;
+    height: 800px;
+}
+
+
+/* TEXTE DA IMAGEM */
+.custom-section {
+    position: relative;
+}
+
+.custom-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Garante que a imagem cubra todo o espaço, mantendo a proporção */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Ajuste a opacidade conforme necessário */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    align-items: left;
+}
+
+.bg-custom1 {
+    background-color: #130F09;
+    text-align: left;
+    align-items: left;
+}
+
+
+.custom-section0 {
+    position: relative;
+
+}
+
+.container {
+    max-width: 1200px;
+}
+
+
+/* **********************LINHAS DAS IMAGENS************************ */
+
+.planosonline::after {
+    content: '';
+    display: block;
+    width: 50px;
+    border-bottom: 7px solid #FF6000;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-left: 48%;
+}
+
+.linha5::after {
+    content: '';
+    display: block;
+    width: 50px;
+    border-bottom: 7px solid #FF6000;
+    margin-top: -5%;
+    box-sizing: border-box;
+    margin-left: 48%;
+}
+
+.linha3::before {
+    content: '';
+    display: block;
+    width: 50px;
+    border-bottom: 7px solid #FF6000;
+    box-sizing: border-box;
+    margin-left: 48%;
+}
+
+.linha2::before {
+    content: '';
+    display: block;
+    width: 50px;
+    border-right: 4px solid blue;
+    box-sizing: border-box;
+    position: absolute;
+    top: 91%;
+    left: -40px;
+    /* Ajuste conforme necessário para alinhar à esquerda do texto */
+    height: 6%;
+}
+
+.linha1::before {
+    content: '';
+    display: block;
+    width: 50px;
+    border-bottom: 7px solid blue;
+    box-sizing: border-box;
+}
+
+/* **********************LINHAS DAS IMAGENS************************ */
+
+
+/* *****************************media query 769*********************** */
+
+@media only screen and (max-width: 769px) {
+    .laranja {
+        margin-left: 0px;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 769px) {
+    .laranja2 {
+        margin-left: 25%;
+        width: 50%;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 769px) {
+
+    .col-md-10,
+    .col-md-4 {
+        width: 100%;
+        margin-bottom: 20px;
+        align-items: center;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+
+    .custom-col-margin .col-md-1,
+    .custom-col-margin .col-md-2,
+    .custom-col-margin .col-md-3,
+    .custom-col-margin .col-md-5 {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 769px) {
+    .secao6 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 769px) {
+    .figure {
+        margin-top: 50%;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .planospresencial::before {
+        width: 4%;
+        height: 7px;
+        top: 1054%;
+        left: 50%;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .custom-section0 {
+        margin-left: 22%;
+    }
+
+    .textodestaque-home {
+        font-size: 1em;
+        /* Ajuste o tamanho conforme necessário */
+    }
+
+    .fs-md-5,
+    .fs-lg-6 {
+        font-size: 1rem;
+        /* Ajuste o tamanho conforme necessário */
+    }
+}
+
+@media (max-width: 769px) {
+    .margem {
+        margin-left: 20px;
+    }
+
+    .texto-section3-principal {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .linha2::before {
+        content: '';
+        display: block;
+        width: 50px;
+        border-right: 4px solid blue;
+        box-sizing: border-box;
+        position: absolute;
+        top: 69%;
+        left: -40px;
+        height: 27%;
+    }
+}
+
+
+/* ********************** media query modo paisagem********************* */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+/********************* media query telefones 400 e 320 ***************/
+
+@media only screen and (max-width: 400px) {
+    .laranja2 {
+        margin-left: 0%;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 375px) and (min-width: 320px) {
+    .textodestaque-home {
+        font-size: 10px;
+        margin-top: 20px;
+
+    }
+
+    .subtitulohome {
+        font-size: 10px;
+    }
+
+    .buttons1 {
+        /* display: flex;
+        position: relative; */
+        font-size: 10px;
+        height: 15px;
+        padding-top: -10px;
+        /* margin-left: 100%; */
+        margin-top: 0%;
+    }
+
+    .card-body {
+        text-align: left;
+        align-items: left;
+
+    }
+
+    .linha2::before {
+        content: '';
+        display: block;
+        width: 50px;
+        border-right: 4px solid blue;
+        box-sizing: border-box;
+        position: absolute;
+        top: 85%;
+        left: -40px;
+        height: 12%;
+    }
+
+    .custom-buttonzap {
+        font-size: 11px;
+        height: 100%;
+        width: 150%px;
+    }
+
+    .tamanho-texto {
+        align-items: left;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .sobremim {
+        font-size: 20px;
+    }
+
+    .eliebson-nome {
+        font-size: 1.5em;
+    }
+
+    .textolongo {
+        font-size: 13px;
+    }
+
+    .texto-section3-principal {
+        font-size: 30px;
+    }
+
+    .texto-section3-subtitulo {
+        font-size: 15px
+    }
+
+    .buttonContratar {
+        font-size: 15px;
+        height: 180%;
+        width: 150%px;
+        margin-left: 10px;
+    }
+}
+
+
+/********************* media query telas 1201px ***************/
+
+@media (min-width: 1201px) {
+    .textodestaque-home {
+        margin-left: 40%;
+        font-size: 40px;
+    }
+
+    .subtitulohome {
+        margin-left: 40%;
+    }
+
+    .buttons1 {
+        margin-left: 40%;
+
+    }
+
+    .linha2::before {
+        content: '';
+        display: block;
+        width: 50px;
+        border-right: 4px solid blue;
+        box-sizing: border-box;
+        position: absolute;
+        top: 85%;
+        left: -40px;
+        /* Ajuste conforme necessário para alinhar à esquerda do texto */
+        height: 12%;
+    }
+
+}
