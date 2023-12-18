@@ -517,7 +517,7 @@ ul {
 
 /* *****************************media query 769*********************** */
 
-@media only screen and (max-width: 769px) {
+@media (max-width: 769px) and (min-width: 500px) {
     .laranja {
         margin-left: 0px;
         width: 100%;
@@ -526,18 +526,11 @@ ul {
         padding: 10px;
     }
 
-}
-
-@media only screen and (max-width: 769px) {
     .laranja2 {
         margin-left: 25%;
         width: 50%;
         text-align: center;
     }
-
-}
-
-@media only screen and (max-width: 769px) {
 
     .col-md-10,
     .col-md-4 {
@@ -546,9 +539,6 @@ ul {
         align-items: center;
         margin-left: 0px;
     }
-}
-
-@media only screen and (max-width: 769px) {
 
     .custom-col-margin .col-md-1,
     .custom-col-margin .col-md-2,
@@ -558,34 +548,36 @@ ul {
         margin-left: 0px;
         margin-bottom: 20px;
     }
-}
 
-@media (max-width: 769px) {
     .secao6 {
         grid-template-columns: 1fr 1fr 1fr;
     }
-}
 
-@media (max-width: 769px) {
     .figure {
         margin-top: 50%;
     }
-}
 
-
-@media (max-width: 769px) {
     .planospresencial::before {
         width: 4%;
         height: 7px;
         top: 1054%;
         left: 50%;
     }
-}
 
-
-@media (max-width: 769px) {
     .custom-section0 {
         margin-left: 22%;
+    }
+
+    .linha2::before {
+        content: '';
+        display: block;
+        width: 50px;
+        border-right: 4px solid blue;
+        box-sizing: border-box;
+        position: absolute;
+        top: 69%;
+        left: -40px;
+        height: 27%;
     }
 
     .textodestaque-home {
@@ -598,9 +590,7 @@ ul {
         font-size: 1rem;
         /* Ajuste o tamanho conforme necessário */
     }
-}
 
-@media (max-width: 769px) {
     .margem {
         margin-left: 20px;
     }
@@ -610,54 +600,59 @@ ul {
     }
 }
 
-@media only screen and (max-width: 769px) {
+@media (max-width: 768px) and (min-width: 501px) {
     .linha2::before {
         content: '';
-        display: block;
+        display: felx;
         width: 50px;
         border-right: 4px solid blue;
         box-sizing: border-box;
         position: absolute;
-        top: 69%;
+        top: 92%;
         left: -40px;
-        height: 27%;
+        height: 5%;
     }
+
+
 }
 
 
 /* ********************** media query modo paisagem********************* */
 
-@media screen and (min-width: 768px) and (max-width: 991px) {}
+/********************* media query telefones 500 ***************/
 
-
-/********************* media query telefones 400 e 320 ***************/
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .laranja2 {
         margin-left: 0%;
         width: 100%;
         text-align: center;
     }
 
-}
+    .secao1 {
+        padding: 10%;
+        display: flex;
+    }
 
-@media (max-width: 375px) and (min-width: 320px) {
     .textodestaque-home {
-        font-size: 10px;
+        font-size: 18px;
         margin-top: 20px;
-
+        width: px;
+        margin-left: 0px;
+        float: center;
+        white-space: nowrap;
     }
 
     .subtitulohome {
-        font-size: 10px;
+        font-size: 12px;
+
     }
 
     .buttons1 {
         /* display: flex;
         position: relative; */
-        font-size: 10px;
-        height: 15px;
-        padding-top: -10px;
+        font-size: 15px;
+        height: 20px;
+        padding-top: -12px;
         /* margin-left: 100%; */
         margin-top: 0%;
     }
@@ -675,9 +670,19 @@ ul {
         border-right: 4px solid blue;
         box-sizing: border-box;
         position: absolute;
-        top: 85%;
+        top: 89%;
         left: -40px;
-        height: 12%;
+        height: 9%;
+    }
+
+    .figure {
+        margin-top: 13px;
+    }
+
+    .imagemEliebson {
+        width: 70%;
+        margin-left: 16%;
+
     }
 
     .custom-buttonzap {
@@ -721,8 +726,224 @@ ul {
 }
 
 
-/********************* media query telas 1201px ***************/
 
+@media (min-width: 400px) and (max-width: 499px) {
+    .laranja2 {
+        margin-left: 0%;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .espaçamentoFinal {
+        margin-top: 15px;
+    }
+
+    .secao1 {
+        padding: 10%;
+        display: flex;
+    }
+
+    .textodestaque-home {
+        font-size: 18px;
+        margin-top: 20px;
+        width: px;
+        margin-left: 80px;
+        float: center;
+        white-space: nowrap;
+    }
+
+    .subtitulohome {
+        font-size: 12px;
+        margin-left: 80px;
+
+    }
+
+    .buttons1 {
+        /* display: flex;
+        position: relative; */
+        font-size: 15px;
+        height: 20px;
+        padding-top: -12px;
+        /* margin-left: 100%; */
+        margin-top: 0%;
+        margin-left: 80px;
+
+    }
+
+    .card-body {
+        text-align: left;
+        align-items: left;
+
+    }
+
+    .linha2::before {
+        content: '';
+        display: block;
+        width: 50px;
+        border-right: 4px solid blue;
+        box-sizing: border-box;
+        position: absolute;
+        top: 82%;
+        left: -40px;
+        height: 13%;
+    }
+
+    .figure {
+        margin-top: 13px;
+    }
+
+    .imagemEliebson {
+        width: 70%;
+        margin-left: 16%;
+
+    }
+
+    .custom-buttonzap {
+        font-size: 11px;
+        height: 100%;
+        width: 150%px;
+    }
+
+    .tamanho-texto {
+        align-items: left;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .sobremim {
+        font-size: 20px;
+    }
+
+    .eliebson-nome {
+        font-size: 1.5em;
+    }
+
+    .textolongo {
+        font-size: 13px;
+    }
+
+    .texto-section3-principal {
+        font-size: 30px;
+    }
+
+    .texto-section3-subtitulo {
+        font-size: 15px
+    }
+
+    .buttonContratar {
+        font-size: 15px;
+        height: 180%;
+        width: 150%px;
+        margin-left: 10px;
+    }
+}
+
+
+
+@media (max-width: 375px) and (min-width: 320px) {
+    .textodestaque-home {
+        font-size: 15px;
+        margin-top: 20px;
+        width: 20px;
+        align-items: center;
+        white-space: nowrap;
+        margin-left: 40%;
+    }
+
+    .subtitulohome {
+        font-size: 10px;
+        white-space: nowrap;
+        margin-left: 40%;
+    }
+
+    .buttons1 {
+        /* display: flex;
+        position: relative; */
+        font-size: 10px;
+        height: 15px;
+        padding-top: -10px;
+        /* margin-left: 100%; */
+        margin-top: 0%;
+        margin-left: 40%;
+    }
+
+    .card-body {
+        text-align: left;
+        align-items: left;
+
+    }
+
+    .imagemEliebson {
+        width: 80%;
+        margin-left: 10%;
+        align-items: center;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .linha2::before {
+        content: '';
+        display: block;
+        width: 50px;
+        border-right: 4px solid blue;
+        box-sizing: border-box;
+        position: absolute;
+        top: 84%;
+        left: -40px;
+        height: 12%;
+    }
+
+    .custom-buttonzap {
+        font-size: 11px;
+        height: 100%;
+        width: 150%px;
+    }
+
+    .tamanho-texto {
+        align-items: left;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .sobremim {
+        font-size: 20px;
+    }
+
+    .eliebson-nome {
+        font-size: 1.5em;
+    }
+
+    .textolongo {
+        font-size: 13px;
+    }
+
+    .texto-section3-principal {
+        font-size: 30px;
+    }
+
+    .texto-section3-subtitulo {
+        font-size: 15px
+    }
+
+    .buttonContratar {
+        font-size: 15px;
+        height: 180%;
+        width: 150%px;
+        margin-left: 10px;
+    }
+
+    .secao1 {
+        padding: 5%;
+    }
+}
+
+
+
+/********************* media query telas 1201px ***************/
+/* 
 @media (min-width: 1201px) {
     .textodestaque-home {
         margin-left: 40%;
@@ -747,8 +968,7 @@ ul {
         position: absolute;
         top: 85%;
         left: -40px;
-        /* Ajuste conforme necessário para alinhar à esquerda do texto */
         height: 12%;
     }
 
-}
+} */
