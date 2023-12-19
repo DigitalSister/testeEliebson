@@ -1,7 +1,73 @@
-/* Adicione estilos personalizados aqui, se necessário */
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Eliebson/Montserrat-VariableFont_wght.ttf');
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+
+/*********************** teste section1 */
+.secao-inicial {
+    position: relative;
+    height: 100vh;
+    background-image: url('imagens/FOTO.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #130F09;
+}
+
+.sobreposicao-escura {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Ajuste a opacidade conforme necessário */
+}
+
+.textodestaque-home {
+    font-size: 2em;
+    font-weight: bold;
+    align-items: left;
+    z-index: 1;
+}
+
+.subtitulohome {
+    font-size: 1em;
+    z-index: 1;
+}
+
+.texto-sobreposto {
+    z-index: 1;
+    /* font-size: 200%; */
+}
+
+/* *****************teste section1**************** */
+.imagemcentro {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.imgfundo {
+    max-width: 100%;
+}
+
+.custom-section0 {
+    align-items: center;
+}
+
 .custom-card {
     width: 100%;
-    /* Utilize 100% da largura do contêiner */
 }
 
 ul {
@@ -27,50 +93,19 @@ ul {
              Adicione a margem inferior desejada em rem */
 }
 
-/* .subtitulohome {
-    font-size: 2em;
-    font-weight: bold;
-    position: absolute;
-    top: 20px;
-    transform: translateY(-50%);
-    left: -100%;
-    white-space: nowrap;
-    font-size: 0.5em;
-    color: #fff;
-    animation: slideIn 2s forwards;
-}
 
-.textodestaque-home {
-    font-size: 2.5em;
-    font-weight: bold;
-    position: absolute;
-    top: -100px;
-    transform: translateY(-50%);
-    left: -100%;
-    white-space: nowrap;
-    font-size: 2em;
-    color: #fff;
-    animation: slideIn 2s forwards;
-}
 
-@keyframes slideIn {
-    to {
-        left: 50%;
-    }
-}
-
-*/
-.textodestaque-home {
-    font-size: 2.5em;
-    font-weight: bold;
+.divlaranja1 {
+    padding: 20px;
 }
 
 .laranja {
     background-color: #FF6000;
     width: 300px;
     /* text-align: center; */
-    margin-left: 60px;
+    /* margin-left: 60px; */
     height: 500px;
+
 }
 
 .laranja2 {
@@ -98,11 +133,14 @@ ul {
 .text-laranja {
     color: #FF6000;
     font-weight: bold;
-
+    white-space: normal;
 }
 
 .texto-white {
     font-weight: bold;
+    white-space: pre-line;
+    align-items: center;
+    text-align: center;
 }
 
 .textoDestaque-centro {
@@ -515,9 +553,175 @@ ul {
 /* **********************LINHAS DAS IMAGENS************************ */
 
 
-/* *****************************media query 769*********************** */
+/* *******************telas de até 600************************ */
 
-@media (max-width: 769px) and (min-width: 500px) {
+@media screen and (max-width: 600px) {
+
+    .secao-inicial {
+        padding: 20px;
+        /*   */
+        height: auto;
+    }
+
+    .texto-sobreposto {
+        font-size: 50%;
+    }
+
+    .secao-inicial .imgfundo {
+        max-height: 30vh;
+    }
+
+    .laranja2 {
+        margin-left: 0%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .laranja {
+        margin-left: 0%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .espaçamentoFinal {
+        margin-top: 15px;
+    }
+
+    .secao1 {
+        padding: 10%;
+        display: flex;
+    }
+
+    .textodestaque-home {
+        font-size: 18px;
+        margin-top: 20px;
+        width: px;
+        margin-left: 80px;
+        float: center;
+        white-space: nowrap;
+    }
+
+    .subtitulohome {
+        font-size: 12px;
+        margin-left: 80px;
+
+    }
+
+    .buttons1 {
+        /* display: flex;
+        position: relative; */
+        font-size: 15px;
+        height: 20px;
+        padding-top: -12px;
+        /* margin-left: 100%; */
+        margin-top: 0%;
+        margin-left: 80px;
+
+    }
+
+    .card-body {
+        text-align: left;
+        align-items: left;
+
+    }
+
+    .textosobremim {
+        margin-top: 10px;
+    }
+
+    .secao3 {
+        margin-top: 10px;
+
+    }
+
+    .linha2::before {
+        content: '';
+        display: block;
+        width: 50px;
+        border-right: 4px solid blue;
+        box-sizing: border-box;
+        position: absolute;
+        top: 88%;
+        left: -40px;
+        height: 10%;
+    }
+
+    .figure {
+        margin-top: 13px;
+    }
+
+    .imagemEliebson {
+        width: 70%;
+        margin-left: 16%;
+
+    }
+
+    .custom-buttonzap {
+        font-size: 11px;
+        height: 100%;
+        width: 150%px;
+    }
+
+    .tamanho-texto {
+        align-items: left;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .sobremim {
+        font-size: 20px;
+    }
+
+    .eliebson-nome {
+        font-size: 1.5em;
+    }
+
+    .textolongo {
+        font-size: 13px;
+    }
+
+    .texto-section3-principal {
+        font-size: 30px;
+    }
+
+    .texto-section3-subtitulo {
+        font-size: 15px
+    }
+
+    .buttonContratar {
+        font-size: 15px;
+        height: 180%;
+        width: 150%px;
+        margin-left: 10px;
+    }
+}
+
+
+/* ******************************Para telas entre 600px e 768px***************************** */
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .secao-inicial {
+        padding: 10px;
+        /* height: auto; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-esquerda {
+        text-align: center;
+        margin-top: 100px;
+    }
+}
+
+/* *********************tablet***************************** */
+
+@media screen and (min-width: 768px) {
+
+    .secao1 {
+        margin-left: 0px;
+    }
+
     .laranja {
         margin-left: 0px;
         width: 100%;
@@ -581,7 +785,7 @@ ul {
     }
 
     .textodestaque-home {
-        font-size: 1em;
+        font-size: 1.0em;
         /* Ajuste o tamanho conforme necessário */
     }
 
@@ -600,183 +804,26 @@ ul {
     }
 }
 
-@media (max-width: 768px) and (min-width: 501px) {
-    .linha2::before {
-        content: '';
-        display: felx;
-        width: 50px;
-        border-right: 4px solid blue;
-        box-sizing: border-box;
-        position: absolute;
-        top: 92%;
-        left: -40px;
-        height: 5%;
-    }
+/* *********************desktop 992px -- 1200px****************** */
 
-
-}
-
-
-/* ********************** media query modo paisagem********************* */
-
-/********************* media query telefones 500 ***************/
-
-@media only screen and (max-width: 500px) {
-    .laranja2 {
-        margin-left: 0%;
-        width: 100%;
-        text-align: center;
-    }
-
-    .secao1 {
-        padding: 10%;
-        display: flex;
-    }
-
-    .textodestaque-home {
-        font-size: 18px;
-        margin-top: 20px;
-        width: px;
-        margin-left: 0px;
-        float: center;
-        white-space: nowrap;
-    }
-
-    .subtitulohome {
-        font-size: 12px;
-
-    }
-
-    .buttons1 {
-        /* display: flex;
-        position: relative; */
-        font-size: 15px;
-        height: 20px;
-        padding-top: -12px;
-        /* margin-left: 100%; */
-        margin-top: 0%;
-    }
-
+@media screen and (min-width:992px) and (max-width:1200px) {
     .card-body {
-        text-align: left;
-        align-items: left;
-
+        margin-top: 15%;
     }
 
-    .linha2::before {
-        content: '';
-        display: block;
-        width: 50px;
-        border-right: 4px solid blue;
-        box-sizing: border-box;
-        position: absolute;
-        top: 89%;
-        left: -40px;
-        height: 9%;
-    }
-
-    .figure {
-        margin-top: 13px;
-    }
-
-    .imagemEliebson {
-        width: 70%;
-        margin-left: 16%;
-
-    }
-
-    .custom-buttonzap {
-        font-size: 11px;
-        height: 100%;
-        width: 150%px;
-    }
-
-    .tamanho-texto {
+    .tamanho-texto .card-body {
         align-items: left;
         margin-left: 10px;
-        margin-top: 10px;
+        margin-top: 40px;
     }
+    
 
-    .sobremim {
-        font-size: 20px;
-    }
-
-    .eliebson-nome {
-        font-size: 1.5em;
-    }
-
-    .textolongo {
-        font-size: 13px;
-    }
-
-    .texto-section3-principal {
-        font-size: 30px;
-    }
-
-    .texto-section3-subtitulo {
-        font-size: 15px
-    }
-
-    .buttonContratar {
-        font-size: 15px;
-        height: 180%;
-        width: 150%px;
-        margin-left: 10px;
-    }
 }
 
 
+/* telas grandes 1200px */
 
-@media (min-width: 400px) and (max-width: 499px) {
-    .laranja2 {
-        margin-left: 0%;
-        width: 100%;
-        text-align: center;
-
-    }
-
-    .espaçamentoFinal {
-        margin-top: 15px;
-    }
-
-    .secao1 {
-        padding: 10%;
-        display: flex;
-    }
-
-    .textodestaque-home {
-        font-size: 18px;
-        margin-top: 20px;
-        width: px;
-        margin-left: 80px;
-        float: center;
-        white-space: nowrap;
-    }
-
-    .subtitulohome {
-        font-size: 12px;
-        margin-left: 80px;
-
-    }
-
-    .buttons1 {
-        /* display: flex;
-        position: relative; */
-        font-size: 15px;
-        height: 20px;
-        padding-top: -12px;
-        /* margin-left: 100%; */
-        margin-top: 0%;
-        margin-left: 80px;
-
-    }
-
-    .card-body {
-        text-align: left;
-        align-items: left;
-
-    }
-
+@media screen and (min-width:1200px) {
     .linha2::before {
         content: '';
         display: block;
@@ -784,191 +831,9 @@ ul {
         border-right: 4px solid blue;
         box-sizing: border-box;
         position: absolute;
-        top: 82%;
+        top: 87%;
         left: -40px;
-        height: 13%;
+        height: 10%;
     }
 
-    .figure {
-        margin-top: 13px;
-    }
-
-    .imagemEliebson {
-        width: 70%;
-        margin-left: 16%;
-
-    }
-
-    .custom-buttonzap {
-        font-size: 11px;
-        height: 100%;
-        width: 150%px;
-    }
-
-    .tamanho-texto {
-        align-items: left;
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-
-    .sobremim {
-        font-size: 20px;
-    }
-
-    .eliebson-nome {
-        font-size: 1.5em;
-    }
-
-    .textolongo {
-        font-size: 13px;
-    }
-
-    .texto-section3-principal {
-        font-size: 30px;
-    }
-
-    .texto-section3-subtitulo {
-        font-size: 15px
-    }
-
-    .buttonContratar {
-        font-size: 15px;
-        height: 180%;
-        width: 150%px;
-        margin-left: 10px;
-    }
 }
-
-
-
-@media (max-width: 375px) and (min-width: 320px) {
-    .textodestaque-home {
-        font-size: 15px;
-        margin-top: 20px;
-        width: 20px;
-        align-items: center;
-        white-space: nowrap;
-        margin-left: 40%;
-    }
-
-    .subtitulohome {
-        font-size: 10px;
-        white-space: nowrap;
-        margin-left: 40%;
-    }
-
-    .buttons1 {
-        /* display: flex;
-        position: relative; */
-        font-size: 10px;
-        height: 15px;
-        padding-top: -10px;
-        /* margin-left: 100%; */
-        margin-top: 0%;
-        margin-left: 40%;
-    }
-
-    .card-body {
-        text-align: left;
-        align-items: left;
-
-    }
-
-    .imagemEliebson {
-        width: 80%;
-        margin-left: 10%;
-        align-items: center;
-    }
-
-    .card-text {
-        font-size: 14px;
-    }
-
-    .linha2::before {
-        content: '';
-        display: block;
-        width: 50px;
-        border-right: 4px solid blue;
-        box-sizing: border-box;
-        position: absolute;
-        top: 84%;
-        left: -40px;
-        height: 12%;
-    }
-
-    .custom-buttonzap {
-        font-size: 11px;
-        height: 100%;
-        width: 150%px;
-    }
-
-    .tamanho-texto {
-        align-items: left;
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-
-    .sobremim {
-        font-size: 20px;
-    }
-
-    .eliebson-nome {
-        font-size: 1.5em;
-    }
-
-    .textolongo {
-        font-size: 13px;
-    }
-
-    .texto-section3-principal {
-        font-size: 30px;
-    }
-
-    .texto-section3-subtitulo {
-        font-size: 15px
-    }
-
-    .buttonContratar {
-        font-size: 15px;
-        height: 180%;
-        width: 150%px;
-        margin-left: 10px;
-    }
-
-    .secao1 {
-        padding: 5%;
-    }
-}
-
-
-
-/********************* media query telas 1201px ***************/
-/* 
-@media (min-width: 1201px) {
-    .textodestaque-home {
-        margin-left: 40%;
-        font-size: 40px;
-    }
-
-    .subtitulohome {
-        margin-left: 40%;
-    }
-
-    .buttons1 {
-        margin-left: 40%;
-
-    }
-
-    .linha2::before {
-        content: '';
-        display: block;
-        width: 50px;
-        border-right: 4px solid blue;
-        box-sizing: border-box;
-        position: absolute;
-        top: 85%;
-        left: -40px;
-        height: 12%;
-    }
-
-} */
