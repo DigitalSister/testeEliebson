@@ -15,8 +15,13 @@ body {
 }
 
 header {
-    font-family: 'bebas';
+    font-family: 'montserrat';
     font-size: 1.1em;
+
+}
+
+.custom-navbar {
+    background-color: #130F09;
 
 }
 
@@ -671,15 +676,17 @@ ul {
         font-size: 18px;
         margin-top: 20px;
         width: px;
-        margin-left: 80px;
+        margin-left: 0px;
         float: center;
         white-space: nowrap;
+        align-items: left;
+        text-indent: 0;
+        margin-bottom: 10px;
     }
 
     .subtitulohome {
         font-size: 12px;
-        margin-left: 80px;
-
+        /* margin-bottom:  1em; */
     }
 
     .buttons1 {
@@ -690,7 +697,7 @@ ul {
         padding-top: -12px;
         /* margin-left: 100%; */
         margin-top: 0%;
-        margin-left: 80px;
+        /* margin-left: 80px; */
 
     }
 
@@ -704,8 +711,9 @@ ul {
         margin-top: 15px;
     }
 
-    .secao3 {
-        margin-top: 10px;
+
+    .containerseca3 {
+        margin-top: -80px;
 
     }
 
@@ -758,10 +766,18 @@ ul {
 
     .texto-section3-principal {
         font-size: 30px;
+        margin-top: 20px;
     }
 
     .texto-section3-subtitulo {
-        font-size: 15px
+        font-size: 15px;
+        margin-top: 10%;
+
+    }
+
+    .destaque-texto-altonivel {
+        margin-top: 10%;
+
     }
 
     .buttonContratar {
@@ -769,6 +785,14 @@ ul {
         height: 180%;
         width: 150%px;
         margin-left: 10px;
+    }
+
+    .secao-inicial {
+        margin-top: 15%;
+    }
+
+    .distanciaimg {
+        margin: 0px 0px -100px 0px;
     }
 }
 
