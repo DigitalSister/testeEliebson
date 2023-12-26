@@ -17,12 +17,26 @@ body {
 header {
     font-family: 'montserrat';
     font-size: 1.1em;
+    background-image: url('imagens/FOTO.png');
+    background-size: cover;
+    background-position: center;
+    /* Add this to ensure background extends under the navbar */
+    position: relative;
+    z-index: 1;
 
 }
 
-.custom-navbar {
-    background-color: #130F09;
+.texto-baixo {
+    text-align: center;
+    color: #00B5F2;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'besel';
+}
 
+.custom-navbar {
+    background-color: transparent;
 }
 
 .secaopretacor {
@@ -75,12 +89,23 @@ header {
     /* Ajuste a opacidade conforme necessário */
 }
 
+.sobreposicao-escura2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Ajuste a opacidade conforme necessário */
+}
+
 .texto-sobreposto .textodestaque-home {
     font-size: 2.5em;
     font-weight: bold;
     align-items: left;
     z-index: 1;
-    font-family: 'bebas';
+    font-family: 'montserrat';
+    line-height: 1.1;
 }
 
 .texto-sobreposto .subtitulohome {
@@ -90,6 +115,11 @@ header {
 
 .texto-sobreposto {
     z-index: 1;
+}
+
+
+.card-text {
+    margin-left: -5%;
 }
 
 /* *****************teste section1**************** */
@@ -231,7 +261,7 @@ ul {
 }
 
 .sobremim {
-    color: aqua;
+    color: #00B5F2;
 }
 
 .eliebson-nome {
@@ -271,6 +301,18 @@ ul {
 /* .figure-img {
     margin-top: -40%;
 } */
+
+.border-custom {
+    border-color: #fff;
+    border-style: none;
+}
+
+.secao5 {
+    margin-top: 25px;
+    margin: 0 auto;
+
+}
+
 
 /* ***************************botao padrao******************************* */
 
@@ -328,7 +370,7 @@ ul {
 
 /************************* BOTÃO DA SECTION 1 ************************/
 .buttons1 {
-    background: blue;
+    background: #00B5F2;
     color: #fff;
     border: none;
     position: relative;
@@ -344,7 +386,7 @@ ul {
 
 .buttons1:hover {
     background: #fff;
-    color: blue;
+    color: #00B5F2;
     border-radius: 8px;
 }
 
@@ -357,7 +399,7 @@ ul {
     right: 0;
     height: 2px;
     width: 0;
-    background: blue;
+    background: #00B5F2#00B5F2;
     transition: 400ms ease all;
     border-radius: 8px;
 }
@@ -397,8 +439,8 @@ ul {
 
 
 .custom-buttonzap:hover {
-    background: #fff;
-    color: #25d366;
+    background: #130F09;
+    color: #fff;
     border-radius: 8px;
 }
 
@@ -602,7 +644,7 @@ ul {
 
 /* linha2 teste */
 .linha-vertical {
-    border-left: 3px solid blue;
+    border-left: 3px solid #00B5F2;
     padding-left: 3%;
 }
 
@@ -612,7 +654,7 @@ ul {
     content: '';
     display: block;
     width: 50px;
-    border-right: 4px solid blue;
+    border-right: 4px solid #00B5F2;
     box-sizing: border-box;
     position: absolute;
     top: 91%;
@@ -625,7 +667,7 @@ ul {
     content: '';
     display: block;
     width: 50px;
-    border-bottom: 7px solid blue;
+    border-bottom: 7px solid #00B5F2;
     box-sizing: border-box;
 }
 
@@ -701,14 +743,21 @@ ul {
 
     }
 
+    .card-text {
+        margin-left: 15px;
+    }
+
     .card-body {
         text-align: left;
         align-items: left;
-
+        border-top: none;
+        border-bottom: none;
     }
 
     .textosobremim {
         margin-top: 15px;
+        border-top: none;
+        border-bottom: none;
     }
 
 
@@ -721,7 +770,7 @@ ul {
         content: '';
         display: block;
         width: 50px;
-        border-right: 4px solid blue;
+        border-right: 4px solid #00B5F2;
         box-sizing: border-box;
         position: absolute;
         top: 88%;
@@ -740,9 +789,8 @@ ul {
     }
 
     .custom-buttonzap {
-        font-size: 11px;
-        height: 100%;
-        width: 150%px;
+        font-size: 20px;
+        height: 180%;
     }
 
     .tamanho-texto {
@@ -781,18 +829,39 @@ ul {
     }
 
     .buttonContratar {
-        font-size: 15px;
+        font-size: 20px;
         height: 180%;
         width: 150%px;
         margin-left: 10px;
     }
 
+    /* 
     .secao-inicial {
         margin-top: 15%;
-    }
+    } */
 
     .distanciaimg {
-        margin: 0px 0px -100px 0px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .containercontainerseca3 .row>div {
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .containerseca3 {
+        margin-top: 10px;
+    }
+
+    .sobreposicao-escura2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 1.0);
+        /* Ajuste a opacidade conforme necessário */
     }
 }
 
@@ -882,7 +951,7 @@ ul {
         content: '';
         display: block;
         width: 50px;
-        border-right: 4px solid blue;
+        border-right: 4px solid #00B5F2;
         box-sizing: border-box;
         position: absolute;
         top: 69%;
@@ -908,6 +977,12 @@ ul {
     .texto-section3-principal {
         margin-top: 50px;
     }
+
+    .saidai {
+        margin-left: 0px;
+    }
+
+
 }
 
 /* *********************desktop 992px -- 1200px****************** */
@@ -920,7 +995,7 @@ ul {
     .tamanho-texto .card-body {
         align-items: left;
         margin-left: 10px;
-        margin-top: 40px;
+        margin-top: -17%;
     }
 
     .figure {
@@ -946,6 +1021,26 @@ ul {
         margin-left: 10%;
     }
 
+    .subtitulohome {
+        margin-left: 30px;
+    }
+
+    .textodestaque-home {
+        margin-left: 30px;
+    }
+
+    .buttons1 {
+        margin-left: 30px;
+    }
+
+    .saidai {
+        margin-left: 13%;
+    }
+
+    .secao5 {
+        margin-top: 25px;
+    }
+
 }
 
 
@@ -956,7 +1051,7 @@ ul {
         content: '';
         display: block;
         width: 50px;
-        border-right: 4px solid blue;
+        border-right: 4px solid #00B5F2;
         box-sizing: border-box;
         position: absolute;
         top: 87%;
@@ -965,7 +1060,7 @@ ul {
     }
 
     .figure {
-        margin-top: 2%;
+        margin-top: 8%;
     }
 
     .laranja2 {
@@ -973,4 +1068,33 @@ ul {
         width: 100%;
         text-align: center;
     }
+
+    .tamanho-texto .card-body {
+        align-items: left;
+        margin-left: 10px;
+        margin-top: -14%;
+    }
+
+    .subtitulohome {
+        margin-left: 30px;
+    }
+
+    .textodestaque-home {
+        margin-left: 30px;
+    }
+
+    .buttons1 {
+        margin-left: 30px;
+    }
+
+    .esquerdapf {
+        margin-left: 1px;
+    }
+
+    /* 
+    .saidai {
+        margin-left: 13%;
+    } */
+
+
 }
