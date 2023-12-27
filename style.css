@@ -991,6 +991,19 @@ ul {
         width: 100%;
         height: 100%;
     }
+
+    .tamanho-texto {
+        margin-top: -2px;
+    }
+
+    .custom-buttonzap {
+        width: 110%;
+        height: 70%;
+    }
+
+    .secao5 {
+        margin-top: 30px;
+    }
 }
 
 /* *********************tablet***************************** */
@@ -1092,18 +1105,13 @@ ul {
         margin-left: -10px;
     }
 
-    .tamanho-texto {
-        margin-top: -2px;
-    }
+    /* .tamanho-texto {
+            margin-top: -2px;
+        } */
 
-    .secao5 {
-        margin-top: 30px;
-    }
 
-    .custom-buttonzap {
-        width: 110%;
-        height: 70%;
-    }
+
+
 }
 
 /* *********************desktop 992px -- 1200px****************** */
