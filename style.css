@@ -743,6 +743,16 @@ ul {
 
 /* **********************LINHAS DAS IMAGENS************************ */
 
+/* botaoespecial */
+
+@media screen and (max-width: 390px) {
+
+    .custom-buttonzap {
+        font-size: 10px;
+        height: 10%;
+    }
+}
+
 
 /* *******************telas de até 600************************ */
 
@@ -895,8 +905,10 @@ ul {
     .texto-section3-subtitulo {
         margin-top: 10%;
         font-weight: bold;
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: baseline;
+        width: 100%;
+        align-items: center;
     }
 
     .destaque-texto-altonivel {
@@ -947,6 +959,14 @@ ul {
 
     .custom-navbar {
         height: 80px;
+    }
+
+    .containerseca3 {
+        max-width: 80%;
+    }
+
+    .espacamento2 {
+        margin-top: 25px;
     }
 }
 
@@ -1197,10 +1217,6 @@ ul {
         height: 110px;
     }
 
-    .custom-ul {
-        /* margin-top: -20px; */
-
-    }
 
     /* 
     .custom-ul li:not(.nav-item:first-child) {
