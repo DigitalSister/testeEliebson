@@ -66,9 +66,9 @@ header {
     font-family: 'bebas';
 }
 
-.custom-navbar {
+/* .custom-navbar {
     background-color: transparent;
-}
+} */
 
 .secaopretacor {
     background-color: #130F09;
@@ -197,7 +197,6 @@ ul {
     /* margin-top: 10px; */
     padding-top: 40px;
     top: 50px;
-
 }
 
 .maior-margem-esquerda {
@@ -745,18 +744,230 @@ ul {
 
 /* botaoespecial */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) {
 
-    .custom-buttonzap {
-        font-size: 10px;
+    .secao-inicial {
+        padding: 20px;
+        /*   */
+        height: auto;
+    }
+
+    .texto-sobreposto {
+        font-size: 65%;
+    }
+
+    .secao-inicial .imgfundo {
+        max-height: 30vh;
+    }
+
+    .laranja2 {
+        margin-left: 0%;
+        width: auto;
+        text-align: center;
+        margin-top: -10%;
+        height: 105%;
+    }
+
+    .laranja {
+        margin-left: 0%;
+        width: auto;
+        height: auto;
+    }
+
+    .espaçamentoFinal {
+        margin-top: 15px;
+    }
+
+    .secao1 {
+        padding: 10%;
+        display: flex;
+    }
+
+    .texto-sobreposto {
+        width: 50%;
+        font-size: 9px;
+    }
+
+    .textodestaque-home {
+        font-size: 50px;
+        margin-top: 20px;
+        width: px;
+        margin-left: 0px;
+        float: center;
+        white-space: nowrap;
+        align-items: left;
+        text-indent: 0;
+        margin-bottom: 10px;
+    }
+
+    .subtitulohome {
+        font-size: 1.5em;
+        /* margin-bottom:  1em; */
+    }
+
+    .buttons1 {
+        /* display: flex;
+        position: relative; */
+        font-size: 15px;
+        height: 20px;
+        padding-top: -12px;
+        /* margin-left: 100%; */
+        margin-top: 0%;
+        /* margin-left: 80px; */
+
+    }
+
+    .card-text {
+        margin-left: 1.5em;
+    }
+
+    .card-body {
+        text-align: left;
+        align-items: left;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .textosobremim {
+        margin-top: 15px;
+        border-top: none;
+        border-bottom: none;
+    }
+
+
+    .containerseca3 {
+        margin-top: -80px;
+
+    }
+
+    .linha2::before {
+        content: '';
+        display: block;
+        width: 50px;
+        border-right: 4px solid #00B5F2;
+        box-sizing: border-box;
+        position: absolute;
+        top: 88%;
+        left: -40px;
         height: 10%;
     }
+
+    .figure {
+        margin-top: 13px;
+    }
+
+    .imagemEliebson {
+        width: 70%;
+        margin-left: 16%;
+
+    }
+
+    .custom-buttonzap {
+        font-size: 15px;
+        height: 140%;
+    }
+
+    .tamanho-texto {
+        align-items: left;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .sobremim {
+        font-size: 20px;
+    }
+
+    .eliebson-nome {
+        font-size: 1.5em;
+    }
+
+    .textolongo {
+        font-size: 1em;
+    }
+
+    .texto-section3-principal {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    /* .texto-section3-subtitulo {
+        font-size: 15px;
+        margin-top: 10%;
+
+    } */
+    .texto-section3-subtitulo {
+        margin-top: 10%;
+        font-weight: bold;
+        font-size: 0.8rem;
+        text-align: baseline;
+        width: 100%;
+        align-items: center;
+    }
+
+    .destaque-texto-altonivel {
+        margin-top: 10%;
+
+    }
+
+    .buttonContratar {
+        font-size: 25px;
+        height: 180%;
+        width: 150%px;
+        margin-left: 10px;
+    }
+
+    /* 
+    .secao-inicial {
+        margin-top: 15%;
+    } */
+
+    .distanciaimg {
+        margin: 20px 0px 20px 0px;
+    }
+
+    .containercontainerseca3 .row>div {
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .containerseca3 {
+        margin-top: 10px;
+    }
+
+    .container-logo {
+        width: 100px;
+        height: 40px;
+    }
+
+    .linha3::before {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 7px solid #FF6000;
+        box-sizing: border-box;
+        margin-left: 44%;
+        margin-top: 20px;
+    }
+
+    /* .custom-navbar {
+        height: 70%;
+    } */
+
+    .containerseca3 {
+        max-width: 80%;
+    }
+
+    .espacamento2 {
+        margin-top: 25px;
+    }
+
 }
 
 
 /* *******************telas de até 600************************ */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width:378px) {
 
     .secao-inicial {
         padding: 20px;
@@ -870,7 +1081,7 @@ ul {
     }
 
     .custom-buttonzap {
-        font-size: 18px;
+        font-size: 15px;
         height: 140%;
     }
 
@@ -957,9 +1168,9 @@ ul {
         margin-top: 20px;
     }
 
-    .custom-navbar {
-        height: 80px;
-    }
+    /* .custom-navbar {
+        height: 70%;
+    } */
 
     .containerseca3 {
         max-width: 80%;
@@ -968,6 +1179,7 @@ ul {
     .espacamento2 {
         margin-top: 25px;
     }
+
 }
 
 
